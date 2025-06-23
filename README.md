@@ -34,13 +34,13 @@
 
 ## 🎉 Credits
 
-#### 🦩 **Created by [Dead Flamingo](https://github.com/DeadFlamingo)** 
+#### **Created by [Dead Flamingo](https://github.com/DeadFlamingo)** 
 
 *Developed for the [Chataigne community](https://benjamin.kuperberg.fr/chataigne)*
 
-📖 Based on [Live Link Face OSC protocol documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/recording-face-animation-on-ios-device-in-unreal-engine) from Epic Games
+Based on [Live Link Face OSC protocol documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/recording-face-animation-on-ios-device-in-unreal-engine) from Epic Games
 
-🎛️ **Chataigne** is created by [Ben Kuper](https://benjamin.kuperberg.fr/)
+**Chataigne** is created by [Ben Kuper](https://benjamin.kuperberg.fr/)
 
 #### 📄 License
 **MIT License** - Feel free to modify and distribute
