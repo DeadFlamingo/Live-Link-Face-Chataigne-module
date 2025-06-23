@@ -1,12 +1,3 @@
-/*
- 
-  author: Dead Flamingo
-  version:1.0.0
-
-  Chataigne module for Live Link Face iOS APP
-  
-*/
-
 // Variables to track next update time
 var nextStatusCheckTime = 0;
 
