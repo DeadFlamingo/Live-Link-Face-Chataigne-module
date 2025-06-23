@@ -2,11 +2,6 @@
 
 <div align="center">
 
-![Live Link Face](https://img.shields.io/badge/Live%20Link%20Face-Compatible-blue?style=for-the-badge&logo=apple)
-![Chataigne](https://img.shields.io/badge/Chataigne-1.9.16+-orange?style=for-the-badge)
-![iOS](https://img.shields.io/badge/iOS-A12%20Chip+-black?style=for-the-badge&logo=apple)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-
 **A Chataigne module for controlling Live Link Face iOS app**
 
 *Real-time facial motion capture with remote recording capabilities*
