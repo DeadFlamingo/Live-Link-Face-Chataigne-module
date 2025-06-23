@@ -20,7 +20,7 @@
 
 ## ✨ Features
 
-<div align="center">
+<div align="left">
 
 | 🎮 **Control** | 📹 **Recording** | 📡 **Streaming** | 📱 **Monitoring** |
 |:---:|:---:|:---:|:---:|
@@ -47,7 +47,7 @@
 
 ## 📊 Status Indicators
 
-<div align="center">
+<div align="left">
 
 | 🔴 **Recording** | 🔋 **Battery** | 🌡️ **Thermal** | 📱 **Connection** |
 |:---:|:---:|:---:|:---:|
@@ -65,7 +65,7 @@
 
 ---
 
-<div align="center">
+<div align="left">
 
 ## 🎉 Credits
 
