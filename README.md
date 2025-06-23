@@ -1,16 +1,39 @@
-# Live Link Face Chataigne Module
+# 🎭 Live Link Face Chataigne Module
 
-A comprehensive [Chataigne](https://benjamin.kuperberg.fr/chataigne) module for controlling Epic Games' [Live Link Face](https://apps.apple.com/app/live-link-face/id1495370836) iOS app for real-time facial motion capture with remote recording capabilities.
+<div align="center">
 
-## 🎭 Features
+![Live Link Face](https://img.shields.io/badge/Live%20Link%20Face-Compatible-blue?style=for-the-badge&logo=apple)
+![Chataigne](https://img.shields.io/badge/Chataigne-1.9.16+-orange?style=for-the-badge)
+![iOS](https://img.shields.io/badge/iOS-A12%20Chip+-black?style=for-the-badge&logo=apple)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-- **Remote Control** - Full OSC-based control of [Live Link Face](https://apps.apple.com/app/live-link-face/id1495370836) app
-- **Remote Recording** - Start/stop recordings remotely with slate and take management
-- **AR Session Management** - Start/stop AR tracking sessions
-- **Live Link Streaming** - Stream facial data to multiple Unreal Engine targets (up to 10)
-- **Device Monitoring** - Real-time battery level and thermal state monitoring
-- **Video Display Control** - Toggle iPhone camera preview to save battery
-- **Auto-configuration** - Automatic network setup and OS module integration
+**A comprehensive [Chataigne](https://benjamin.kuperberg.fr/chataigne) module for controlling Epic Games' [Live Link Face](https://apps.apple.com/app/live-link-face/id1495370836) iOS app**
+
+*Real-time facial motion capture with remote recording capabilities*
+
+</div>
+
+---
+
+## ✨ Features
+
+<div align="center">
+
+| 🎮 **Control** | 📹 **Recording** | 📡 **Streaming** | 📱 **Monitoring** |
+|:---:|:---:|:---:|:---:|
+| Full OSC remote control | Remote recording with metadata | Stream to 10 targets | Battery & thermal status |
+| AR session management | Slate and take automation | Real-time facial data | Connection monitoring |
+
+</div>
+
+### 🚀 **Core Capabilities**
+- **🎛️ Remote Control** - Full OSC-based control of [Live Link Face](https://apps.apple.com/app/live-link-face/id1495370836) app
+- **📼 Remote Recording** - Start/stop recordings remotely with slate and take management
+- **🔴 AR Session Management** - Start/stop AR tracking sessions
+- **📡 Live Link Streaming** - Stream facial data to multiple Unreal Engine targets (up to 10)
+- **🔋 Device Monitoring** - Real-time battery level and thermal state monitoring
+- **📺 Video Display Control** - Toggle iPhone camera preview to save battery
+- **⚙️ Auto-configuration** - Automatic network setup and OS module integration
 
 ## 📱 Requirements
 
@@ -19,20 +42,30 @@ A comprehensive [Chataigne](https://benjamin.kuperberg.fr/chataigne) module for 
 - iPhone/iPad with A12 chip or newer
 - Network connection between computer and iOS device
 
-## 🚀 Installation
+## 🛠️ Installation
 
-1. Download the module files:
-   - `module.json`
-   - `LiveLinkFace.js`
+<details>
+<summary><b>📥 Quick Install Guide</b></summary>
 
-2. Place them in your Chataigne modules folder:
+1. **Download** the module files:
    ```
-   Documents/Chataigne/modules/LiveLinkFace/
+   📁 module.json
+   📁 LiveLinkFace.js
    ```
 
-3. Reload custom modules in [Chataigne](https://benjamin.kuperberg.fr/chataigne): `File → Reload custom modules`
+2. **Place** them in your Chataigne modules folder:
+   ```
+   📂 Documents/Chataigne/modules/LiveLinkFace/
+   ```
 
-4. Add the "Live Link Face" module from `Motion Capture` category
+3. **Reload** custom modules in [Chataigne](https://benjamin.kuperberg.fr/chataigne): 
+   ```
+   File → Reload custom modules
+   ```
+
+4. **Add** the "Live Link Face" module from `Motion Capture` category
+
+</details>
 
 ## ⚙️ Setup
 
@@ -93,14 +126,21 @@ Configure up to 10 simultaneous streaming targets:
 
 ## 📊 Status Indicators
 
-| Indicator | Description |
-|-----------|-------------|
-| **Recording** | Blinks when recording active |
-| **Battery Level** | 0-100% charge level |
-| **Thermal State** | Green (Cool) → Yellow (Warm) → Red (Hot) |
-| **Video Display** | Camera preview on/off status |
-| **AR Session Active** | AR tracking session status |
-| **App Active** | Live Link Face connection status |
+<div align="center">
+
+| 🔴 **Recording** | 🔋 **Battery** | 🌡️ **Thermal** | 📱 **Connection** |
+|:---:|:---:|:---:|:---:|
+| Blinks when active | 0-100% level | 🟢🟡🔴 Color coded | App status |
+
+</div>
+
+### 🎯 **Visual Feedback**
+- **🔴 Recording** - Blinks when recording active
+- **🔋 Battery Level** - 0-100% charge level  
+- **🌡️ Thermal State** - 🟢 Green (Cool) → 🟡 Yellow (Warm) → 🔴 Red (Hot)
+- **📺 Video Display** - Camera preview on/off status
+- **🔴 AR Session Active** - AR tracking session status
+- **📱 App Active** - Live Link Face connection status
 
 ## 🔌 OSC Protocol
 
@@ -143,18 +183,30 @@ The module communicates with Live Link Face using these OSC commands:
 - **v1.1.0** - Added AR Session support, multiple Live Link targets, improved status monitoring
 - **v1.0.2** - Initial release with basic Live Link Face control
 
-## 🙏 Credits
+---
 
-**Module created by** 🦩 **Dead Flamingo**
+<div align="center">
 
-Developed for the [Chataigne](https://benjamin.kuperberg.fr/chataigne) community. Based on [Live Link Face OSC protocol documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/recording-face-animation-on-ios-device-in-unreal-engine) from Epic Games.
+## 🎉 Credits
 
-**Chataigne** is created by [Benjamin Kuperberg](https://benjamin.kuperberg.fr/).
+### 🦩 **Created by Dead Flamingo**
 
-## 📄 License
+*Developed for the [Chataigne](https://benjamin.kuperberg.fr/chataigne) community*
 
-MIT License - Feel free to modify and distribute.
+📖 Based on [Live Link Face OSC protocol documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/recording-face-animation-on-ios-device-in-unreal-engine) from Epic Games
+
+🎛️ **Chataigne** is created by [Benjamin Kuperberg](https://benjamin.kuperberg.fr/)
 
 ---
 
-For support and updates, please visit the [Issues](../../issues) page.
+### 📄 License
+**MIT License** - Feel free to modify and distribute
+
+### 🆘 Support  
+For support and updates, please visit the [Issues](../../issues) page
+
+---
+
+⭐ **Star this repo if you find it useful!** ⭐
+
+</div>
