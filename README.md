@@ -32,14 +32,15 @@
 ---
 
 <div align="left">
-
+---
 ### 🎉 Credits
 
-#### Created by [Dead Flamingo](https://github.com/DeadFlamingo) 
+Created by [Dead Flamingo](https://github.com/DeadFlamingo) 
 
 Live Link Face OSC protocol [documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/recording-face-animation-on-ios-device-in-unreal-engine)
 
 Chataigne is created by [Ben Kuper](https://benjamin.kuperberg.fr/)
+
 ---
 #### 🆘 Support  
 For support and updates, please visit the [Issues](https://github.com/DeadFlamingo/Live-Link-Face-Chataigne-module/issues) page
