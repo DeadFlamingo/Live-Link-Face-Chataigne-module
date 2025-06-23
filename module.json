@@ -1,0 +1,528 @@
+{
+  "name":"Live Link Face",
+  "type":"OSC",
+  "path":"Software",
+  
+  "version":"1.0.0",
+  "description":"Control Live Link Face iOS app for facial motion capture with remote recording, AR Session and multiple targets support",
+  "url":"",
+  "downloadURL":"",
+
+  "hasInput":true,
+  "hasOutput":true, 
+
+  "hideDefaultCommands": false,
+  "hideDefaultParameters": [
+    "colorSendMode",
+    "autoRange",
+    "autoFeedback",
+    "useHierarchy",
+    "autoAdd",
+    "clearValues",
+    "booleanSendMode"
+  ],
+  
+  "defaults": {
+    "OSC Input": {
+      "localPort" : 8000
+     },
+      
+    "OSC Outputs": {
+      "Live Link Face iOS": {
+        "local" : false,
+        "remoteHost" : "",
+        "remotePort" : 8000,
+        "listenToFeedback":false 
+      }
+    }
+  },
+
+  "parameters": {
+    "Remote Control": {
+      "type": "Container",
+      "description": "OSC communication settings for iPhone connection",
+      "Target IP": {
+        "type": "String",
+        "default": "{{root.modules.os.values.networkInfos.ip}}",
+        "description": "IP address where OSC messages will be sent to iPhone"
+      },
+      "Target Port": {
+        "type": "Integer", 
+        "default": 8000,
+        "min": 1,
+        "max": 65535,
+        "description": "UDP port number for OSC communication with iPhone"
+      },
+      "Set Send Target": {
+        "type": "Trigger",
+        "description": "Apply the Target IP and Port settings to Live Link Face app"
+      }
+    },
+    "Live Link Settings": {
+      "type": "Container",
+      "collapsed": false,
+      "description": "Live Link streaming and recording configuration",
+      "Subject Name": {
+        "type": "String",
+        "default": "Hamlet",
+        "description": "Name identifier for the Live Link subject"
+      },
+      "Set Subject": {
+        "type": "Trigger",
+        "description": "Apply the Subject Name to Live Link Face app"
+      },
+      "Slate Name": {
+        "type": "String",
+        "default": "ToBeOrNotToBe?",
+        "description": "Scene or shot identifier for recording metadata"
+      },
+      "Set Slate": {
+        "type": "Trigger",
+        "description": "Apply the Slate Name to Live Link Face app"
+      },
+      "Take Number": {
+        "type": "Integer",
+        "default": 1,
+        "min": 1,
+        "description": "Take number for recording (auto-increments after each recording)"
+      },
+      "Set Take": {
+        "type": "Trigger",
+        "description": "Apply the Take Number to Live Link Face app"
+      },
+      "Targets": {
+        "type": "Container",
+        "collapsed": true,
+        "description": "Live Link streaming destinations (up to 10 targets)",
+        "Target 1": {
+          "type": "Container",
+          "collapsed": true,
+          "description": "Live Link streaming target #1",
+          "Enabled": {
+            "type": "Boolean",
+            "default": false,
+            "description": "Enable this Live Link target for streaming"
+          },
+          "IP Address": {
+            "type": "String",
+            "default": "127.0.0.1",
+            "description": "IP address of Live Link receiver"
+          },
+          "Port": {
+            "type": "Integer",
+            "default": 11111,
+            "min": 1,
+            "max": 65535,
+            "description": "UDP port for Live Link data streaming"
+          }
+        },
+        "Target 2": {
+          "type": "Container",
+          "collapsed": true,
+          "description": "Live Link streaming target #2",
+          "Enabled": {
+            "type": "Boolean",
+            "default": false,
+            "description": "Enable this Live Link target for streaming"
+          },
+          "IP Address": {
+            "type": "String",
+            "default": "127.0.0.1",
+            "description": "IP address of Live Link receiver"
+          },
+          "Port": {
+            "type": "Integer",
+            "default": 11112,
+            "min": 1,
+            "max": 65535,
+            "description": "UDP port for Live Link data streaming"
+          }
+        },
+        "Target 3": {
+          "type": "Container",
+          "collapsed": true,
+          "description": "Live Link streaming target #3",
+          "Enabled": {
+            "type": "Boolean",
+            "default": false,
+            "description": "Enable this Live Link target for streaming"
+          },
+          "IP Address": {
+            "type": "String",
+            "default": "127.0.0.1",
+            "description": "IP address of Live Link receiver"
+          },
+          "Port": {
+            "type": "Integer",
+            "default": 11113,
+            "min": 1,
+            "max": 65535,
+            "description": "UDP port for Live Link data streaming"
+          }
+        },
+        "Target 4": {
+          "type": "Container",
+          "collapsed": true,
+          "description": "Live Link streaming target #4",
+          "Enabled": {
+            "type": "Boolean",
+            "default": false,
+            "description": "Enable this Live Link target for streaming"
+          },
+          "IP Address": {
+            "type": "String",
+            "default": "127.0.0.1",
+            "description": "IP address of Live Link receiver"
+          },
+          "Port": {
+            "type": "Integer",
+            "default": 11114,
+            "min": 1,
+            "max": 65535,
+            "description": "UDP port for Live Link data streaming"
+          }
+        },
+        "Target 5": {
+          "type": "Container",
+          "collapsed": true,
+          "description": "Live Link streaming target #5",
+          "Enabled": {
+            "type": "Boolean",
+            "default": false,
+            "description": "Enable this Live Link target for streaming"
+          },
+          "IP Address": {
+            "type": "String",
+            "default": "127.0.0.1",
+            "description": "IP address of Live Link receiver"
+          },
+          "Port": {
+            "type": "Integer",
+            "default": 11115,
+            "min": 1,
+            "max": 65535,
+            "description": "UDP port for Live Link data streaming"
+          }
+        },
+        "Target 6": {
+          "type": "Container",
+          "collapsed": true,
+          "description": "Live Link streaming target #6",
+          "Enabled": {
+            "type": "Boolean",
+            "default": false,
+            "description": "Enable this Live Link target for streaming"
+          },
+          "IP Address": {
+            "type": "String",
+            "default": "127.0.0.1",
+            "description": "IP address of Live Link receiver"
+          },
+          "Port": {
+            "type": "Integer",
+            "default": 11116,
+            "min": 1,
+            "max": 65535,
+            "description": "UDP port for Live Link data streaming"
+          }
+        },
+        "Target 7": {
+          "type": "Container",
+          "collapsed": true,
+          "description": "Live Link streaming target #7",
+          "Enabled": {
+            "type": "Boolean",
+            "default": false,
+            "description": "Enable this Live Link target for streaming"
+          },
+          "IP Address": {
+            "type": "String",
+            "default": "127.0.0.1",
+            "description": "IP address of Live Link receiver"
+          },
+          "Port": {
+            "type": "Integer",
+            "default": 11117,
+            "min": 1,
+            "max": 65535,
+            "description": "UDP port for Live Link data streaming"
+          }
+        },
+        "Target 8": {
+          "type": "Container",
+          "collapsed": true,
+          "description": "Live Link streaming target #8",
+          "Enabled": {
+            "type": "Boolean",
+            "default": false,
+            "description": "Enable this Live Link target for streaming"
+          },
+          "IP Address": {
+            "type": "String",
+            "default": "127.0.0.1",
+            "description": "IP address of Live Link receiver"
+          },
+          "Port": {
+            "type": "Integer",
+            "default": 11118,
+            "min": 1,
+            "max": 65535,
+            "description": "UDP port for Live Link data streaming"
+          }
+        },
+        "Target 9": {
+          "type": "Container",
+          "collapsed": true,
+          "description": "Live Link streaming target #9",
+          "Enabled": {
+            "type": "Boolean",
+            "default": false,
+            "description": "Enable this Live Link target for streaming"
+          },
+          "IP Address": {
+            "type": "String",
+            "default": "127.0.0.1",
+            "description": "IP address of Live Link receiver"
+          },
+          "Port": {
+            "type": "Integer",
+            "default": 11119,
+            "min": 1,
+            "max": 65535,
+            "description": "UDP port for Live Link data streaming"
+          }
+        },
+        "Target 10": {
+          "type": "Container",
+          "collapsed": true,
+          "description": "Live Link streaming target #10",
+          "Enabled": {
+            "type": "Boolean",
+            "default": false,
+            "description": "Enable this Live Link target for streaming"
+          },
+          "IP Address": {
+            "type": "String",
+            "default": "127.0.0.1",
+            "description": "IP address of Live Link receiver"
+          },
+          "Port": {
+            "type": "Integer",
+            "default": 11120,
+            "min": 1,
+            "max": 65535,
+            "description": "UDP port for Live Link data streaming"
+          }
+        },
+        "Apply Targets": {
+          "type": "Trigger",
+          "description": "Send all enabled Live Link targets to the iOS app"
+        },
+        "Clear All Targets": {
+          "type": "Trigger",
+          "description": "Remove all Live Link targets from the iOS app"
+        }
+      }
+    }
+  },
+
+  "scripts": [
+    "LiveLinkFace.js"
+  ],
+
+  "values": {
+    "Controls": {
+      "type": "Container",
+      "collapsed": false,
+      "AR Session": {
+        "type": "Container",
+        "collapsed": false,
+        "description": "AR tracking session controls",
+        "Start AR Session": {
+          "type": "Trigger",
+          "description": "Start AR tracking and video capture on iOS device"
+        },
+        "Stop AR Session": {
+          "type": "Trigger",
+          "description": "Stop AR tracking and video capture on iOS device"
+        }
+      },
+      "Live Link": {
+        "type": "Container",
+        "collapsed": false,
+        "description": "Live Link streaming controls",
+        "Start Stream": {
+          "type": "Trigger",
+          "description": "Start streaming facial animation data to Live Link targets"
+        },
+        "Stop Stream": {
+          "type": "Trigger",
+          "description": "Stop streaming facial animation data to Live Link targets"
+        }
+      },
+      "Recording": {
+        "type": "Container",
+        "collapsed": false,
+        "description": "Recording controls for facial animation capture",
+        "Start Recording": {
+          "type": "Trigger",
+          "description": "Start recording facial animation with current slate and take"
+        },
+        "Stop Recording": {
+          "type": "Trigger",
+          "description": "Stop recording and save facial animation data"
+        }
+      },
+      "Video Display": {
+        "type": "Container",
+        "collapsed": false,
+        "description": "iPhone video display controls",
+        "Display On": {
+          "type": "Trigger",
+          "description": "Turn on video preview on iPhone screen"
+        },
+        "Display Off": {
+          "type": "Trigger",
+          "description": "Turn off video preview on iPhone screen (saves battery)"
+        }
+      }
+    },
+    "Status": {
+      "type": "Container",
+      "collapsed": false,
+      "description": "Real-time status information from Live Link Face iOS app",
+      "Battery Level": {
+        "type": "Float",
+        "readOnly": true,
+        "min": 0,
+        "max": 100,
+        "description": "Current battery level of the iOS device (0-100%)"
+      },
+      "Query Battery": {
+        "type": "Trigger",
+        "description": "Request current battery level from the iOS device"
+      },
+      "Thermal State": {
+        "type": "Color",
+        "readOnly": true,
+        "description": "Thermal state indicator: Green=Cool, Yellow=Warm, Red=Hot"
+      },
+      "Query Thermals": {
+        "type": "Trigger",
+        "description":  "Request current thermal state from the iOS device"
+      },
+      "Recording": {
+        "type": "Boolean",
+        "readOnly": true,
+        "description":  "Current recording status (blinks when recording is active)"
+      },
+      "Video Display": {
+        "type": "Boolean",
+        "readOnly": true,
+        "description":  "Video display status on iOS device (On/Off)"
+      },
+      "AR Session Active": {
+        "type": "Boolean",
+        "readOnly": true,
+        "description":  "AR tracking session status on iOS device"
+      },
+      "App Active": {
+        "type": "Boolean",
+        "readOnly": true,
+        "description":  "Live Link Face app connection status"
+      }
+    }
+  },
+
+  "commands": {
+    "AR Session": {
+      "menu": "AR Session",
+      "Start AR Session": {
+        "menu": "",
+        "callback": "startARSession"
+      },
+      "Stop AR Session": {
+        "menu": "",
+        "callback": "stopARSession"
+      }
+    },
+    
+    "Live Link": {
+      "menu": "Live Link",
+      "Set Subject": {
+        "menu": "",
+        "callback": "setLiveLinkSubject"
+      },
+      "Start Stream": {
+        "menu": "",
+        "callback": "startLiveLinkStream"
+      },
+      "Stop Stream": {
+        "menu": "",
+        "callback": "stopLiveLinkStream"
+      }
+    },
+    
+    "Live Link Targets": {
+      "menu": "Live Link Targets",
+      "Apply Targets": {
+        "menu": "",
+        "callback": "applyLiveLinkTargets"
+      },
+      "Clear All Targets": {
+        "menu": "",
+        "callback": "clearAllLiveLinkTargets"
+      }
+    },
+    
+    "Device Status": {
+      "menu": "Device Status",
+      "Query Battery Level": {
+        "menu": "",
+        "callback": "queryBattery"
+      },
+      "Query Thermal State": {
+        "menu": "",
+        "callback": "queryThermals"
+      }
+    },
+    
+    "Recording": {
+      "menu": "Recording",
+      "Set Slate": {
+        "menu": "",
+        "callback": "setSlate"
+      },
+      "Set Take Number": {
+        "menu": "",
+        "callback": "setTake"
+      },
+      "Start Recording": {
+        "menu": "",
+        "callback": "startRecording"
+      },
+      "Stop Recording": {
+        "menu": "",
+        "callback": "stopRecording"
+      }
+    },
+    "Video Display": {
+      "menu": "Video Display",
+      "Video Display On": {
+        "menu": "",
+        "callback": "videoDisplayOn"
+      },
+      "Video Display Off": {
+        "menu": "",
+        "callback": "videoDisplayOff"
+      }
+    },
+    "Remote Control": {
+      "menu": "Remote Control",
+      "Set Send Target": {
+        "menu": "",
+        "callback": "setOSCSendTarget"
+      }
+    }
+  }
+}
