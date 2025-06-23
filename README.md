@@ -25,7 +25,7 @@
 - **📺 Video Display Control** - Toggle iPhone camera Video preview to save battery
 - **⚙️ Auto-configuration** - Automatic network setup and OS module integration
 
-___
+
 
 <div align="left">
 
