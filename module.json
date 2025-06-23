@@ -2,7 +2,7 @@
   "name":"Live Link Face",
   "type":"OSC",
   "path":"Software",
-  
+  "author": "Dead Flamingo",
   "version":"1.0.0",
   "description":"Control Live Link Face iOS app for facial motion capture with remote recording, AR Session and multiple targets support",
   "url":"https://github.com/DeadFlamingo/Live-Link-Face-Chataigne-module/tree/main",
