@@ -1,10 +1,10 @@
 # Live Link Face Chataigne Module
 
-A comprehensive Chataigne module for controlling Live Link Face iOS app for real-time facial motion capture with remote recording capabilities.
+A comprehensive [Chataigne](https://benjamin.kuperberg.fr/chataigne) module for controlling Epic Games' [Live Link Face](https://apps.apple.com/app/live-link-face/id1495370836) iOS app for real-time facial motion capture with remote recording capabilities.
 
 ## 🎭 Features
 
-- **Remote Control** - Full OSC-based control of Live Link Face app
+- **Remote Control** - Full OSC-based control of [Live Link Face](https://apps.apple.com/app/live-link-face/id1495370836) app
 - **Remote Recording** - Start/stop recordings remotely with slate and take management
 - **AR Session Management** - Start/stop AR tracking sessions
 - **Live Link Streaming** - Stream facial data to multiple Unreal Engine targets (up to 10)
@@ -14,8 +14,8 @@ A comprehensive Chataigne module for controlling Live Link Face iOS app for real
 
 ## 📱 Requirements
 
-- **Chataigne** 1.9.16 or later
-- **Live Link Face** iOS app (Epic Games)
+- **[Chataigne](https://benjamin.kuperberg.fr/chataigne)** 1.9.16 or later
+- **[Live Link Face](https://apps.apple.com/app/live-link-face/id1495370836)** iOS app (Epic Games)
 - iPhone/iPad with A12 chip or newer
 - Network connection between computer and iOS device
 
@@ -30,7 +30,7 @@ A comprehensive Chataigne module for controlling Live Link Face iOS app for real
    Documents/Chataigne/modules/LiveLinkFace/
    ```
 
-3. Reload custom modules in Chataigne: `File → Reload custom modules`
+3. Reload custom modules in [Chataigne](https://benjamin.kuperberg.fr/chataigne): `File → Reload custom modules`
 
 4. Add the "Live Link Face" module from `Motion Capture` category
 
@@ -39,7 +39,7 @@ A comprehensive Chataigne module for controlling Live Link Face iOS app for real
 ### Network Configuration
 1. Connect your iOS device and computer to the same network
 2. The module automatically detects your computer's IP address
-3. In Live Link Face app, set the OSC target to your computer's IP and port 8000
+3. In [Live Link Face app](https://apps.apple.com/app/live-link-face/id1495370836), set the OSC target to your computer's IP and port 8000
 
 ### OSC Outputs Configuration
 Configure the "Live Link Face iOS" output with your iPhone's IP address:
@@ -130,7 +130,7 @@ The module communicates with Live Link Face using these OSC commands:
 
 ### No AR Session
 - iPhone must support Face ID or have A12 chip or newer
-- Grant camera permissions to Live Link Face app
+- Grant camera permissions to [Live Link Face app](https://apps.apple.com/app/live-link-face/id1495370836)
 - Ensure adequate lighting conditions
 
 ### Recording Problems
@@ -145,7 +145,9 @@ The module communicates with Live Link Face using these OSC commands:
 
 ## 🙏 Credits
 
-Developed for the Chataigne community. Based on Live Link Face OSC protocol documentation from Epic Games.
+Developed for the [Chataigne](https://benjamin.kuperberg.fr/chataigne) community. Based on [Live Link Face](https://apps.apple.com/app/live-link-face/id1495370836) OSC protocol documentation from Epic Games.
+
+**Chataigne** is created by [Benjamin Kuperberg](https://benjamin.kuperberg.fr/).
 
 ## 📄 License
 
