@@ -21,7 +21,7 @@
 </div>
 
 ### ✨ **Features**
-<div align="left">
+
 - **🎛️ Remote Control** - Full OSC-based control of [Live Link Face](https://apps.apple.com/app/live-link-face/id1495370836) app
 - **📼 Remote Recording** - Start/stop recordings remotely with slate and take management
 - **🔴 AR Session Management** - Start/stop AR tracking sessionsAdd commentMore actions
@@ -33,14 +33,14 @@
 
 <div align="left">
 
-## 🎉 Credits
+### 🎉 Credits
 
-#### **Created by [Dead Flamingo](https://github.com/DeadFlamingo)** 
+#### Created by [Dead Flamingo](https://github.com/DeadFlamingo) 
 
-[Live Link Face OSC protocol documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/recording-face-animation-on-ios-device-in-unreal-engine)
+Live Link Face OSC protocol [documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/recording-face-animation-on-ios-device-in-unreal-engine)
 
-**Chataigne** is created by [Ben Kuper](https://benjamin.kuperberg.fr/)
-
+Chataigne is created by [Ben Kuper](https://benjamin.kuperberg.fr/)
+---
 #### 🆘 Support  
 For support and updates, please visit the [Issues](https://github.com/DeadFlamingo/Live-Link-Face-Chataigne-module/issues) page
 ---
