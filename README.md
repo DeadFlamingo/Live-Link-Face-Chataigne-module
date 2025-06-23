@@ -35,11 +35,11 @@
 
 ### 🎉 Credits
 
-Created by [Dead Flamingo](https://github.com/DeadFlamingo) 
+- ** Created by [Dead Flamingo](https://github.com/DeadFlamingo) 
 
-Live Link Face OSC protocol [documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/recording-face-animation-on-ios-device-in-unreal-engine)
+- ** Live Link Face OSC protocol [documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/recording-face-animation-on-ios-device-in-unreal-engine)
 
-Chataigne is created by [Ben Kuper](https://benjamin.kuperberg.fr/)
+- ** Chataigne is created by [Ben Kuper](https://benjamin.kuperberg.fr/)
 
 ---
 ⭐ **Star this repo if you find it useful!** ⭐
