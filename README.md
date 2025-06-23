@@ -17,7 +17,7 @@
 
 ### ✨ **Features**
 
-- **🎛️ Remote Control** - Full OSC-based control of [Live Link Face](https://apps.apple.com/app/live-link-face/id1495370836) app
+- **🎛️ Remote Control** - Remote control of [Live Link Face](https://apps.apple.com/app/live-link-face/id1495370836) app
 - **📼 Remote Recording** - Start/stop recordings remotely with slate and take management
 - **🔴 AR Session Management** - Start/stop AR tracking sessions
 - **📡 Live Link Streaming** - Stream facial data to multiple Unreal Engine targets (up to 10)
@@ -36,9 +36,5 @@ ___
 -  Live Link Face OSC protocol [documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/recording-face-animation-on-ios-device-in-unreal-engine)
 
 -  Chataigne is created by [Ben Kuper](https://benjamin.kuperberg.fr/)
-
-___
-
-⭐ **Star this repo if you find it useful!** ⭐
 
 </div>
