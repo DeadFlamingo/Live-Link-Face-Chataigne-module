@@ -7,7 +7,7 @@
 ![iOS](https://img.shields.io/badge/iOS-A12%20Chip+-black?style=for-the-badge&logo=apple)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-**A comprehensive [Chataigne](https://benjamin.kuperberg.fr/chataigne) module for controlling Epic Games' [Live Link Face](https://apps.apple.com/app/live-link-face/id1495370836) iOS app**
+**A comprehensive [Chataigne](https://benjamin.kuperberg.fr/chataigne) module for controlling [Live Link Face](https://apps.apple.com/app/live-link-face/id1495370836) iOS app**
 
 *Real-time facial motion capture with remote recording capabilities*
 
@@ -189,9 +189,9 @@ The module communicates with Live Link Face using these OSC commands:
 
 ## 🎉 Credits
 
-### 🦩 **Created by Dead Flamingo**
+### 🦩 **Created by [Dead Flamingo](https://github.com/DeadFlamingo)** 
 
-*Developed for the [Chataigne](https://benjamin.kuperberg.fr/chataigne) community*
+*Developed for the [Chataigne community](https://benjamin.kuperberg.fr/chataigne)*
 
 📖 Based on [Live Link Face OSC protocol documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/recording-face-animation-on-ios-device-in-unreal-engine) from Epic Games
 
@@ -203,7 +203,7 @@ The module communicates with Live Link Face using these OSC commands:
 **MIT License** - Feel free to modify and distribute
 
 ### 🆘 Support  
-For support and updates, please visit the [Issues](../../issues) page
+For support and updates, please visit the [Issues](https://github.com/DeadFlamingo/Live-Link-Face-Chataigne-module/issues) page
 
 ---
 
