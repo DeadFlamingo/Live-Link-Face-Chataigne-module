@@ -1,4 +1,6 @@
 # 🎭 Live Link Face Chataigne Module
+<div align="center">
+<img src="https://github.com/DeadFlamingo/Live-Link-Face-Chataigne-module/blob/main/icon.png" alt="Live Link Face Module Icon" width="128" height="128">
 
 <div align="center">
 
