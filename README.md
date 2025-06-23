@@ -24,10 +24,10 @@
 
 - **🎛️ Remote Control** - Full OSC-based control of [Live Link Face](https://apps.apple.com/app/live-link-face/id1495370836) app
 - **📼 Remote Recording** - Start/stop recordings remotely with slate and take management
-- **🔴 AR Session Management** - Start/stop AR tracking sessionsAdd commentMore actions
+- **🔴 AR Session Management** - Start/stop AR tracking sessions
 - **📡 Live Link Streaming** - Stream facial data to multiple Unreal Engine targets (up to 10)
 - **🔋 Device Monitoring** - Real-time battery level and thermal state monitoring
-- **📺 Video Display Control** - Toggle iPhone camera preview to save battery
+- **📺 Video Display Control** - Toggle iPhone camera Video preview to save battery
 - **⚙️ Auto-configuration** - Automatic network setup and OS module integration
 ---
 
@@ -41,9 +41,6 @@ Live Link Face OSC protocol [documentation](https://dev.epicgames.com/documentat
 
 Chataigne is created by [Ben Kuper](https://benjamin.kuperberg.fr/)
 
----
-#### 🆘 Support  
-For support and updates, please visit the [Issues](https://github.com/DeadFlamingo/Live-Link-Face-Chataigne-module/issues) page
 ---
 ⭐ **Star this repo if you find it useful!** ⭐
 
