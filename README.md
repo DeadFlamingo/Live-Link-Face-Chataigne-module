@@ -145,7 +145,9 @@ The module communicates with Live Link Face using these OSC commands:
 
 ## 🙏 Credits
 
-Developed for the [Chataigne](https://benjamin.kuperberg.fr/chataigne) community. Based on [Live Link Face](https://apps.apple.com/app/live-link-face/id1495370836) OSC protocol documentation from Epic Games.
+**Module created by** 🦩 **Dead Flamingo**
+
+Developed for the [Chataigne](https://benjamin.kuperberg.fr/chataigne) community. Based on [Live Link Face OSC protocol documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/recording-face-animation-on-ios-device-in-unreal-engine) from Epic Games.
 
 **Chataigne** is created by [Benjamin Kuperberg](https://benjamin.kuperberg.fr/).
 
