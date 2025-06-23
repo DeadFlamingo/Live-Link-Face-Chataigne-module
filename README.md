@@ -16,18 +16,18 @@
 <div align="center">
 <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/91/c1/9b91c1fb-fffd-d010-bda5-fa4d21f7f148/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/434x0w.webp" alt="Live Link Face Module Icon" width="320" height="320">
 
-<div align="center">
+<div align="left">
 
 </div>
 
 ### ✨ **Features**
-**🎛️ Remote Control** - Full OSC-based control of [Live Link Face](https://apps.apple.com/app/live-link-face/id1495370836) app
-**📼 Remote Recording** - Start/stop recordings remotely with slate and take management
-**🔴 AR Session Management** - Start/stop AR tracking sessions
-**📡 Live Link Streaming** - Stream facial data to multiple Unreal Engine targets (up to 10)
-**🔋 Device Monitoring** - Real-time battery level and thermal state monitoring
-**📺 Video Display Control** - Toggle iPhone camera preview to save battery
-**⚙️ Auto-configuration** - Automatic network setup and OS module integration
+- **🎛️ Remote Control** - Full OSC-based control of [Live Link Face](https://apps.apple.com/app/live-link-face/id1495370836) app
+- **📼 Remote Recording** - Start/stop recordings remotely with slate and take management
+- **🔴 AR Session Management** - Start/stop AR tracking sessionsAdd commentMore actions
+- **📡 Live Link Streaming** - Stream facial data to multiple Unreal Engine targets (up to 10)
+- **🔋 Device Monitoring** - Real-time battery level and thermal state monitoring
+- **📺 Video Display Control** - Toggle iPhone camera preview to save battery
+- **⚙️ Auto-configuration** - Automatic network setup and OS module integration
 ---
 
 <div align="left">
