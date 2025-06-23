@@ -70,43 +70,6 @@
 
 </details>
 
-## ⚙️ Setup
-
-### Network Configuration
-1. Connect your iOS device and computer to the same network
-2. The module automatically detects your computer's IP address
-3. In [Live Link Face app](https://apps.apple.com/app/live-link-face/id1495370836), set the OSC target to your computer's IP and port 8000
-
-### OSC Outputs Configuration
-Configure the "Live Link Face iOS" output with your iPhone's IP address:
-- **Remote Host**: Your iPhone's IP address
-- **Remote Port**: 8000 (default)
-
-## 🎮 Usage
-
-### Basic Workflow
-1. **Start AR Session** - Initialize camera and AR tracking
-2. **Set Live Link Subject** - Define subject name for Unreal Engine
-3. **Configure Targets** - Add Unreal Engine Live Link receivers
-4. **Start Streaming** - Begin facial data transmission
-5. **Record** (optional) - Capture performance with slate/take metadata
-
-### Live Link Targets
-Configure up to 10 simultaneous streaming targets:
-- **Target IP**: Unreal Engine computer IP address
-- **Port**: Live Link port (default 11111-11120)
-- **Enabled**: Toggle target on/off
-
-### Recording
-- **Slate Name**: Scene/shot identifier
-- **Take Number**: Auto-increments after each recording
-- Real-time recording status with visual indicator
-
-### Device Monitoring
-- **Battery Level**: Current iOS device battery percentage
-- **Thermal State**: Color-coded thermal monitoring (Green/Yellow/Red)
-- **App Status**: Connection status indicator
-
 ## 🔧 Commands
 
 ### AR Session
