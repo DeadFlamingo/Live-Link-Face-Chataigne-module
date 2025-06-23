@@ -25,7 +25,7 @@
 - **📺 Video Display Control** - Toggle iPhone camera Video preview to save battery
 - **⚙️ Auto-configuration** - Automatic network setup and OS module integration
 
----
+***
 
 <div align="left">
 
@@ -37,7 +37,7 @@
 
 -  Chataigne is created by [Ben Kuper](https://benjamin.kuperberg.fr/)
 
----
+***
 
 ⭐ **Star this repo if you find it useful!** ⭐
 
