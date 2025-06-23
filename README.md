@@ -42,15 +42,11 @@
 
 🎛️ **Chataigne** is created by [Ben Kuper](https://benjamin.kuperberg.fr/)
 
----
-
 ### 📄 License
 **MIT License** - Feel free to modify and distribute
 
 ### 🆘 Support  
 For support and updates, please visit the [Issues](https://github.com/DeadFlamingo/Live-Link-Face-Chataigne-module/issues) page
-
----
 
 ⭐ **Star this repo if you find it useful!** ⭐
 
