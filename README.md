@@ -63,7 +63,7 @@
    File → Reload custom modules
    ```
 
-4. **Add** the "Live Link Face" module from `Motion Capture` category
+4. **Add** the "Live Link Face" module from `Software` category
 
 </details>
 
