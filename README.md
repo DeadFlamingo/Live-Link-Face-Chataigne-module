@@ -32,7 +32,7 @@
 ---
 
 <div align="left">
----
+
 ### 🎉 Credits
 
 Created by [Dead Flamingo](https://github.com/DeadFlamingo) 
